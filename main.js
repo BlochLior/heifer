@@ -1,2 +1,6 @@
+import {moo} from "./moo.js";
+import { say } from "cowsay";
+
 const NAME = "lior";
-console.log(`moo, ${NAME}!`);
+const str = moo(NAME)
+console.log(say({text: str,}));
